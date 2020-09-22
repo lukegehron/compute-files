@@ -1,0 +1,23 @@
+Program Version,EnergyPlus, Version 8.8.0-7c3bbe4830, YMD=2020.09.22 11:15,IDD_Version 8.8.0
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** The design coil load is zero for Coil:Heating:Water COIL HEATING WATER 2
+   **   ~~~   ** The autosize value for maximum water flow rate is zero
+   **   ~~~   ** To change this, input a value for UA, change the heating design day, or raise the
+   **   ~~~   **   system heating design supply air temperature. Also check to make sure the Preheat
+   **   ~~~   **   Design Temperature is not the same as the Central Heating Design Supply Air Temperature. 
+   ** Severe  ** AirLoopHVAC DOAS AIR LOOP HVAC1 has no air flow
+   **   ~~~   ** Check flow rate inputs for components in this air loop and,
+   **   ~~~   ** if autosized, check Sizing:Zone and Sizing:System objects and related inputs.
+   **  Fatal  ** Previous condition causes termination.
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=1
+   ..... Last severe error=AirLoopHVAC DOAS AIR LOOP HVAC1 has no air flow
+   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).
+   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 2 Warning; 0 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 3 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  0.95sec
